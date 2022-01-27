@@ -9,9 +9,8 @@ class HelloWorldTest < Test::Unit::TestCase
     Sinatra::Application
   end
 
-  def test_it_says_hello_world
+  def test_root
     get '/'
     assert last_response.ok?
-    assert_equal 'Hello Sinatra!', last_response.body
   end
 end

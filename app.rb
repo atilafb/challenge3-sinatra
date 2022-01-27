@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Hello Sinatra!'
+  send_file 'personal_info.html'
 end
