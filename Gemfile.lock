@@ -17,8 +17,13 @@ GEM
     eventmachine (1.2.7)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    power_assert (2.0.1)
     rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     ruby2_keywords (0.0.5)
+    test-unit (3.5.3)
+      power_assert
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -29,7 +34,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  rack-test
   sinatra!
+  test-unit
   thin
 
 BUNDLED WITH
