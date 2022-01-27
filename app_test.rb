@@ -13,4 +13,9 @@ class HelloWorldTest < Test::Unit::TestCase
     get '/'
     assert last_response.ok?
   end
+
+  def test_link_page
+    get '/link_page'
+    assert last_response.ok?
+  end
 end
