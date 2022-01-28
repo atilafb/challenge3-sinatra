@@ -8,3 +8,7 @@ get '/link_page' do
   erb :link_page
 end
 
+get '/graduation' do
+  erb :graduation
+end
+
