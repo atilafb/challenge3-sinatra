@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  send_file './pages/personal_info.html'
+  erb :personal_info
+end
+
+get '/link_page' do
+  erb :link_page
 end
