@@ -11,11 +11,11 @@ class HelloWorldTest < Test::Unit::TestCase
 
   def test_root
     get '/'
-    assert last_response.ok?
+    assert_equal 200, last_response.status
   end
 
   def test_link_page
     get '/link_page'
-    assert last_response.ok?
+    assert_equal 200, last_response.status
   end
 end
