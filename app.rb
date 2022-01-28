@@ -7,3 +7,4 @@ end
 get '/link_page' do
   erb :link_page
 end
+
