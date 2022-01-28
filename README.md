@@ -1,6 +1,9 @@
 # challenge3-sinatra
 
 Challenge to use Sinatra framework to do 3 pages about myself.
+This project uses:
+* Ruby 3.1.0
+* Sinatra 2.1.0
 
 ## RVM and Ruby installation
 
