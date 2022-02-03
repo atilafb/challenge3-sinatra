@@ -1,4 +1,4 @@
-require_relative 'app'
+require_relative '../app'
 require 'test/unit'
 require 'rack/test'
 
@@ -18,4 +18,10 @@ class HelloWorldTest < Test::Unit::TestCase
     get '/link_page'
     assert_equal 200, last_response.status
   end
+
+  def test_graduation
+    get '/graduation'
+    assert_equal 200, last_response.status
+  end
 end
+
